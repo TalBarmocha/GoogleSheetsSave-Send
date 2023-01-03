@@ -45,12 +45,12 @@ attachment_package.add_header('Content-Disposition', f"attachment; filename= " +
 msg.attach(attachment_package)
 text = msg.as_string()
 print("Connectig to servers....")
-TIE_server = smtplib.SMTP("smtp.gmail.com", 587)
-TIE_server.starttls()
-TIE_server.login(email_from, pswd)
-TIE_server.sendmail(email_from, email_target, text)
+svr= smtplib.SMTP("smtp.gmail.com", 587)
+svr.starttls()
+svr.login(email_from, pswd)
+svr.sendmail(email_from, email_target, text)
 print(f"The email sent to {email_target}")
-TIE_server.quit()
+svr.quit()
 
 
 #####Deleteing the file######
