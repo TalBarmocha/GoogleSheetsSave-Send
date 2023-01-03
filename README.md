@@ -3,7 +3,7 @@ I needed to create a backup for my google sheets and then send the backup to my 
 so I created this script to help me do this automatically.
 
 
-This script downloads a sheet from 'Google Sheets' send it via gmail and then deletes it from the location downloaded
+This script downloads a sheet from `Google Sheets` send it via gmail and then deletes it from the location downloaded
 
 
 thanks to [The-Intrigued-Engineer](https://github.com/The-Intrigued-Engineer) for the [encoding solution](https://github.com/The-Intrigued-Engineer/python_emails/blob/main/with_attachments.py)
