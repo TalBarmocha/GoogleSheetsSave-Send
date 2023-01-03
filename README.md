@@ -1,2 +1,9 @@
-# GoogleSheetsSave-Send
-This script copy the sheet you want from google sheets then saves it on the server. send it to an email, and then deletes it 
+# GoogleSheetsSave&Send
+I needed to create a backup for my google sheets and then send the backup to my work mail.
+so I created this script to help me do this automatically.
+
+
+This script downloads a sheet from 'Google Sheets' send it via gmail and then deletes it from the location downloaded
+
+
+thanks to @The-Intrigued-Engineer for the encoding solution
