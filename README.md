@@ -19,3 +19,5 @@ the Key is `1zmW8vR7Nwm8Uedfr9zI7WmNsfuTwzk8WCtj4wbN6LUA`
 >3. Make sure your Google Account have eneabled `Two-Factor Authentication` then in the Account Managment go to Security>>App Password>>Create new password for `email` app and device `other`. you will get a `string` key **!!SAVE THE FILE SOMEWHARE SAFE!!** once you see it google will never show it again!
 >4. Change the script according to the outcome of the other steps above
 >5. Enjoy :)
+
+I used 'cron' to automate the task on the VM linux mechine. Please feel free to use any other method.
